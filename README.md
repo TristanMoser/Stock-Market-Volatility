@@ -1,4 +1,4 @@
-# Stock-Market-Peewee-Database
+# Stock-Market-Volatility
 
 As part of a research project into the volatility of stock market assets, I created an SQL database using the Peewee Python library. I also helped develop a web server to dynamically search the database. 
 

@@ -1,0 +1,292 @@
+
+body {
+    /*background-image: radial-gradient(circle, #101030 0%, #000003 90%);*/
+    background-color: white;
+    color: black;
+    font-family: 'Overpass Mono','Helvetica Neue Light', Georgia,   sans-serif;
+    margin: 10px;
+}
+
+h1 {
+    font-family: 'Overpass Mono', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Overpass Mono', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+h3 {
+    font-family: 'Overpass Mono', sans-serif;
+    margin-bottom: 1px;
+    margin-left: 0px;
+    font-size: 2em;
+}
+
+h4 {
+    font-family: 'Overpass Mono', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+#header {
+    text-align: left;
+}
+
+#searchbox {
+  border: 2px dashed black;
+  background-color: white;
+  font-family: 'Overpass Mono', fixed-width;
+  padding: 10px;
+  font-size: 2.0em;
+  line-height: 1em;
+  width: 88%;
+}
+
+
+.searchbutton {
+  font-family: 'Overpass Mono'
+  background-color: lightgray
+  line-height: 3em;
+  font-size: 2em;
+  border: 0px;
+  margin-left: 10px;
+  padding: 10px;
+
+}
+
+.leadbutton {
+  font-family: inherit;
+  margin-top: 10px;
+  font-size: 1em;
+  margin: 2px;
+  border: 0;
+  height: 30px;
+  border-color: black;
+  background-color: lightgray;
+}
+
+#month-select {
+    font-family: inherit;
+    margin-top: 0px;
+    margin-left: 10px;
+    border: 0;
+    border-color: black;
+    border-radius: 0px;
+    padding: 3px;
+}
+
+.select-item {
+}
+
+.menuItem {
+}
+
+.contentWrapper {
+  width:100%;
+  height:100%;
+}
+
+.contentDisplay {
+  font-family: inherit;
+  background-color: inherit;
+  border-color: black;
+  border: 0;
+  margin: 10px;
+}
+
+.causerDisplay {
+  font-family: inherit;
+  background-color: inherit;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 20%;
+  display: inline-block;
+}
+
+.causer-label {
+  font-size: 6em;
+  vertical-align: top;
+}
+
+.magnitude-outer{
+  font-family: inherit;
+  background-color: inherit;
+  margin-top: 10px;
+  margin-right: 10px;
+  display:inline-block;
+}
+
+.magnitude-chart {
+    display: inline-block;
+}
+
+.volatility-outer {
+  font-family: inherit;
+  width: 30%;
+  background-color: inherit;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+#midpoint-outer {
+  font-family: inherit;
+  background-color: inherit;
+  margin-right: 10px;
+  text-align: left;
+  display: inline-block;
+  width: 30%:
+}
+
+.midpoint-chart {
+}
+
+.data-title {
+    color: rgba(255,0,0,0.7);
+    display: inline-block;
+}
+
+#mpd-display {
+  display: inline-block;
+  width: 100%;
+}
+
+
+#vector-title {
+    color: rgba(255,0,0,0.7);
+    font-size: 2em;
+}
+
+
+.mpd {
+  font-size: 4em;
+}
+
+#donut-display {
+  font-size: 3em;
+  margin: 10px;
+  padding: 10px;
+}
+
+.causer-midpoint-outer {
+  background-color: inherit;
+  margin-top: 10px;
+  margin-right: 10px;
+
+}
+.causer-midpoint-chart {
+    display: inline-block;
+}
+
+.ct-series-a .ct-bar, .ct-series-a .ct-line, .ct-series-a .ct-point, .ct-series-a .ct-slice-donut .ct-grid {
+    stroke-opacity: 0.5;
+    fill-opacity: 0.5;
+    fill: rgba(255,255,255,1.0);
+}
+
+.ct-series-b .ct-line,
+.ct-series-b .ct-point {
+    stroke-opacity:.8;
+    stroke: blue;
+}
+
+text.ct-label {
+  fill: black;
+  stroke: black;
+  font-size: 3em;
+  font-family: Overpass Mono, serif;
+}
+.ct-slice-pie {
+    stroke: black;
+    font-family: "Overpass Mono";
+}
+
+.ct-series-a  .ct-slice-donut {
+    stroke: black;
+    fill-opacity: 0.0;
+    fill: black;
+    stroke-width: 4px;
+    stroke: black;
+    font-family: "Overpass Mono";
+}
+
+.ct-series-b .ct-slice-donut {
+    stroke-width: 0;
+    stroke-opacity: 0;
+}
+
+.ct-label {
+    font-size: 0.7em;
+    color: black;
+    font-family: 'Overpass Mono', fixed-width;
+    dominant-baseline: central;
+    text-anchor: middle;
+}
+
+.ct-label-a {
+  color: black;
+}
+
+.ct-grid {
+    stroke: black;
+}
+
+.metaDisplay {
+    width: 100%;
+    background-color: inherit;
+}
+
+.metaProperty {
+    font-family: 'Overpass Mono', fixed-width;
+    display: inline;
+}
+
+.ticker-display {
+}
+
+.causer-label {
+    padding-right: 1px;
+    color: black;
+    display: inline-block;
+
+}
+
+.display-inner {
+    display: inline-block;
+    margin-left:1em;
+    margin: 2em;
+    vertical-align: top;
+}
+
+.gc-header {
+    text-align: center;
+    width: 7em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+
+.gc-yes {
+    text-align: center;
+    width: 3em;
+    border: 0px;
+    border: 0.5px solid black;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.gc-no {
+    text-align: center;
+    width: 3em;
+    border: 0.5px solid black;
+    width: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
